@@ -1,0 +1,92 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background: #1f8438be;
+}
+main {
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    animation: fromLeft 1.2s;
+}
+form {
+    max-width: 42.8rem;
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    background: #1f8438be;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+form h1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #afe25c;
+    margin-bottom: 3.2rem;
+}
+.input-wrapper {
+    margin-bottom: 1.6rem;
+}
+form label {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: white;
+}
+form input {
+    border-radius: 4px;
+    padding: 2.6rem;
+    background: #DCE2E9;
+    border: 1px solid rgba(0, 128, 255, 0.3);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #36245f;
+    width: 100%;
+    margin-top: .8rem;
+}
+form input:focus {
+    outline: 2px solid #afe25c;
+}
+form input::placeholder {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: rgba(73, 80, 87, 0.5);
+}
+form button {
+    border-radius: 50px;
+    padding: 1.6rem;
+    background: #afe25c;
+    color: rgb(255, 2, 2);
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 11.6rem;
+    line-height: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    width: 100%;
+    margin-top: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    
+}
+
+#resultado {
+    font-size: 12.5rem;
+    color: #ff00cc;
+}
